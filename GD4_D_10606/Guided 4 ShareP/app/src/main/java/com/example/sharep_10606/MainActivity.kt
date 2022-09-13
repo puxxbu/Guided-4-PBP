@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             editTextName?.setText(sharedPreferences!!.getString(name,""))
         }
         if (sharedPreferences!!.contains(email)){
-            editTextName?.setText(sharedPreferences!!.getString(email,""))
+            editTextEmail?.setText(sharedPreferences!!.getString(email,""))
         }
     }
 
