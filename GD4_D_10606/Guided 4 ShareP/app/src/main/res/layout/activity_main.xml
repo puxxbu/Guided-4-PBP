@@ -8,19 +8,19 @@
     tools:context=".MainActivity">
 
     <Button
-        style="@style/ThemeOverlay.Material3.Button.ElevatedButton"
         android:id="@+id/btnSave"
+        style="@style/ThemeOverlay.Material3.Button.ElevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_centerInParent="true"
+        android:backgroundTint="#59c639"
         android:onClick="saveData"
         android:text="Save"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:backgroundTint="#59c639"
         android:textSize="15dp"
-        tools:ignore="OnClick"/>
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
     <Button
         style="@style/ThemeOverlay.Material3.Button.ElevatedButton"
         android:id="@+id/btnRetrieve"
